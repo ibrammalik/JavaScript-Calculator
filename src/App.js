@@ -1,23 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="text-slate-400">
+      <h1>JavaScript Calculator</h1>
+      <a href="https://www.flaticon.com/free-icons/calculator" title="calculator icons">
+        Calculator icons created by Freepik - Flaticon
+      </a>
     </div>
   );
 }
